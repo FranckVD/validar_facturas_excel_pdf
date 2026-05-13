@@ -1,0 +1,15 @@
+[project]
+name = "appwithstreamlit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "customtkinter>=5.2.2",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.3",
+    "pdf2image>=1.17.0",
+    "pillow>=12.0.0",
+    "pypdf2>=3.0.1",
+    "pytesseract>=0.3.13",
+]
