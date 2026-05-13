@@ -12,7 +12,7 @@ import pytesseract
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Tesseract
-TESSERACT_PATH = r"F:\teseract\tesseract.exe"
+TESSERACT_PATH = r"F:\teseract\tesseract.exe" #Modificá y añadí la ruta absoluta donde instalaste Tesseract.
 if os.path.exists(TESSERACT_PATH):
     pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
 
