@@ -124,7 +124,8 @@ class ExtractorPDF:
                     
                     texto += texto_pag + "\n"
                     
-                    # # DEBUG: Genera y guarda texto extraído para análisis de como extrae los datos el OCR
+                    # DEBUG: Genera y guarda texto extraído para análisis de como extrae los datos el OCR
+                    # Descomenta y ejecuta para verificar.
                     # with open("debug_ocr.txt", "a", encoding="utf-8") as f:
                     #     f.write(f"--- DEBUG OCR: {os.path.basename(ruta_pdf)} (Pág {i+1}) ---\n")
                     #     f.write(texto_pag)
